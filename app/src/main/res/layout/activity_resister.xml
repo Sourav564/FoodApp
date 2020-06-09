@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resister">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="RESISTER"
+        android:textSize="30sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/textview"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:hint="Enter Email"
+        android:id="@+id/edittext"
+        android:textColorHint="@android:color/holo_blue_dark"/>
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext"
+        android:id="@+id/edittext2"
+        android:layout_centerInParent="true"
+        android:hint="enter password"
+        android:textColorHint="@android:color/holo_red_light"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="RESISTER"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/button"/>
+
+
+
+</RelativeLayout>

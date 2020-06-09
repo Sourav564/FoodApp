@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/desikhaarfive"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:id="@+id/image1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/image1"
+            android:background="@drawable/desikhaarfour"
+            android:adjustViewBounds="true"
+            android:id="@+id/image2"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image3"
+            android:layout_below="@id/image2"
+            android:adjustViewBounds="true"
+            android:background="@drawable/desikhaarthree"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Close this app"
+            android:layout_below="@id/image3"
+            android:layout_margin="60dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:id="@+id/textview"
+            android:textColor="@android:color/holo_red_dark"/>
+    </RelativeLayout>
+
+</ScrollView>
